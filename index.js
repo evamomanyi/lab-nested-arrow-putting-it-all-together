@@ -1,6 +1,6 @@
-//module.exports = {
- // ...(typeof createLoginTracker !== 'undefined' && { createLoginTracker })
-//};
+module.exports = {
+...(typeof createLoginTracker !== 'undefined' && { createLoginTracker })
+};
 
 function createLoginTracker(userInfo) {
   userInfo.username = "user1"
